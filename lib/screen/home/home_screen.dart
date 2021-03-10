@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:muse/constant.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+// import 'package:flutter_svg/flutter_svg.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -8,7 +8,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: <Widget>[
-          SvgPicture.asset('/assets/images/logo.svg'),
+          // SvgPicture.asset('/assets/images/logo.svg'),
           Container(
               padding: const EdgeInsets.symmetric(vertical: 20),
               child: Row(
