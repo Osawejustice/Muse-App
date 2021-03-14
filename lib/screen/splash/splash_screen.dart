@@ -9,9 +9,7 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
-    var d = Duration(seconds: 3);
-    //delay 3 secons before showing the home screen
-    Future.delayed(d, () {
+    Future.delayed(Duration(seconds: 3), () {
       Navigator.pushAndRemoveUntil(context,
           MaterialPageRoute(builder: (context) {
         return HomeScreen();

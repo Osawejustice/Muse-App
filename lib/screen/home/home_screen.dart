@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:muse/constant.dart';
+import 'package:muse/config/constant.dart';
 // import 'package:flutter_svg/flutter_svg.dart';
 
 class HomeScreen extends StatelessWidget {
