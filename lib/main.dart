@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:muse/constant.dart';
+import 'package:muse/config/constant.dart';
 import 'package:muse/screen/splash/splash_screen.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(Muse());
 }
 
-class MyApp extends StatelessWidget {
+class Muse extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
